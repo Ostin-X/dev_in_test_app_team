@@ -1,5 +1,7 @@
 import subprocess
 
+import allure
+
 
 def get_android_udid():
     try:
@@ -16,6 +18,7 @@ def get_android_udid():
         return None
 
 
+@allure.step("Login to the application")
 def login_to_app(login_page, email, password):
     login_page.reset_app()
     login_page.click_hello_login_button()
