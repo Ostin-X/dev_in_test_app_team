@@ -29,12 +29,10 @@ class LoginPage(Page):
 
     def enter_email(self, email):
         email_input = self.find_email_input()
-        # self.click_element(email_input)
         self.send_keys_to_element(email_input, email)
 
     def enter_password(self, password):
         password_input = self.find_password_input()
-        # self.click_element(password_input)
         self.send_keys_to_element(password_input, password)
 
     def click_login_button(self):

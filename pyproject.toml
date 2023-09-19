@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dev-in-test-app-team"
+version = "0.1.0"
+description = ""
+authors = ["ASP <andrewpeshekhonov@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "dev_in_test_app_team" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+urllib3 = "1.26.16"
+appium-python-client = "1.0.2"
+python-dotenv = "1.0.0"
+pytest = "6.2.5"
+allure-pytest = "^2.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
