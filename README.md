@@ -18,7 +18,3 @@
 3) Настройка эмулятора - https://developer.android.com/studio/run/emulator
 4) Настройка аппиума - https://appium.io/docs/en/2.0/quickstart/
 5) Инспектор приложения - https://appium.io/docs/en/2.0/quickstart/uiauto2-driver/
-
-### Login credentials
-login - qa.ajax.app.automation@gmail.com
-password - qa_automation_password
